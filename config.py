@@ -45,13 +45,13 @@ YTUB_COOKIES = """
 .youtube.com    TRUE    /       TRUE    1787255097      PREF    f6=40000000&tz=Asia.Calcutta&f7=100
 """
 
-API_ID = int(getenv("API_ID", "26604598"))
-API_HASH = getenv("API_HASH", "78431be042455065fcc95346f63d9a46")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "7726783353").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "-1002664960140")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002848881053"))
+LOG_GROUP = getenv("LOG_GROUP", "")
+CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "30"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "7726783353"))
 WEBSITE_URL = getenv("WEBSITE_URL", "indianshortner.com")
